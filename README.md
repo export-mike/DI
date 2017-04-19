@@ -7,7 +7,7 @@ What is it?
 
 Why?
 
-##Reduce 'Coupling' 
+## Reduce 'Coupling' 
 >In software engineering, coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.
 >https://en.wikipedia.org/wiki/Coupling_(computer_programming)
 >
