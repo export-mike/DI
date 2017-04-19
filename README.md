@@ -60,7 +60,7 @@ test('getHandler Should return message', () => {
 	const EmailService = { send: jest.fn(); };
 	const UserModel = { find: jest.fn(); };
 	
-	app.get('/', getHandler())
+	app.get('/', getHandler({ EmailService, UserModel }))
 	return request(app)
 	.get('/')
 	.expect(200)
