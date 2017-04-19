@@ -1,10 +1,13 @@
 {
   "name": "di",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "di.js",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2"
+  },
+  "scripts": {
+     "start": "node index.js" 
   }
 }
